@@ -71,10 +71,10 @@ t:
       url: "/"
     musc:
       name: "Releases"
-      url: "/releases/"
+      url: "/releases.html"
     artists:
       name: "Artistas"
-      url: "/artistas/"
+      url: "/artistas.html"
     english:
       name: "English"
       url: "/index.en.html"
