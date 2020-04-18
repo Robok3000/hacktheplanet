@@ -1,6 +1,7 @@
 
 .release {
     padding: 0 24px;
+    padding-bottom: 40px;
 }
 .release ul {
     margin:0;
@@ -16,7 +17,12 @@
 .release-item a {
     text-decoration: none;
 }
+.release-item {
+    padding:1px;
+    margin-top:1px;
+}
 .release-item img {
     border: 1px solid $gray;
-    margin-bottom:10px;
+    margin:1px;
+    margin-bottom: 10px;
 }

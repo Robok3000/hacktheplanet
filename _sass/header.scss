@@ -12,4 +12,9 @@ header li {
 }
 header a, header a:visited {
     color:white;
+    text-transform: uppercase;
+}
+.current {
+    background-color: white;
+    color: black !important;
 }

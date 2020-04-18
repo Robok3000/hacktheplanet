@@ -3,7 +3,12 @@
         <h1>HACK THE PLANET</h1>
         <ul id="menu">
             {% for menu in site.t[page.lang] %}
-            <li><a href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+            {% assign current = nil %}
+
+            {% if page.title == menu[1].name or page.menu == menu[1].name  %}
+            {% assign current = 'current' %}
+          {% endif %}
+            <li><a class="{{ current }}" href="{{ menu[1].url }}">/{{ menu[1].name }}</a></li>
           {% endfor %}
         </ul>  
 

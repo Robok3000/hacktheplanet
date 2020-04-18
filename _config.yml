@@ -44,6 +44,7 @@ defaults:
       type: "releases" # a collection in your site, in plural form
     values:
       layout: "release"
+      menu: "Releases"
 # Exclude from processing.heah
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
