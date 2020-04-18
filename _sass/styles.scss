@@ -4,14 +4,28 @@ body {
     color:white;
     font-family:monospace;
 }
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
 h1, h2, h3, h4, h5, h6, p, a, ul, input {
     font-family: 'IBMVGA8';
     font-size: 16px;
     font-weight: 100;
+    width:100%;
+}
+h3, h4, h5 {
+    color: $gray;;
 }
 a, a:visited {
     color: $green;
 }
 .content {
     padding: 0 24px;
+    max-width: 700px;
+    margin:0 auto;
+}
+hr {
+    border:0;
+    border: 2px solid $gray;
 }

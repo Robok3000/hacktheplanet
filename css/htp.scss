@@ -1,6 +1,7 @@
 ---
 ---
 $green: #2DFE54;
+$gray: #555;
 
 @font-face {
     font-family: 'IBMVGA8';
@@ -15,3 +16,5 @@ $green: #2DFE54;
 @import "reset";
 @import "styles";
 @import "header";
+@import "release";
+@import "media";
