@@ -10,7 +10,7 @@
             <iframe width="300" height="300" src="https://www.youtube.com/embed/{{page.youtube | split: 'v=' | last}}?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
-            <h3>{{page.id | split: "/" | last}}</h3>
+            <h4>{{page.id | split: "/" | last}}</h4>
             <h2><a href="/artistas/{{page.artist | slugify}}">{{page.artist}}</a></h2>
 
             <h1>{{page.title}}</h1>

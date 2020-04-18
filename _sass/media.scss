@@ -25,9 +25,13 @@
     header {
         margin-bottom:40px;
     }
-
+    .release-item img {
+        width:100%;
+    }
     .release-item {
         max-width: 300px;   
+        display: block;
+        width: 33%;
     }
     #svg-element {
         width:100%;

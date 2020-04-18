@@ -20,9 +20,17 @@
 .release-item {
     padding:1px;
     margin-top:1px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 .release-item img {
     border: 1px solid $gray;
     margin:1px;
     margin-bottom: 10px;
+    width:100px;
+    margin-right:20px;
+}
+.release-item a {
+    color:white;
 }

@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="{{ page.lang }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+<div class="content">
+    <h1>Artistas</h1>
+    <hr>
+    {% assign artists=site.artists | where:"lang", page.lang %}
+  
+  {% for artist in artists %}
+    <div class="artist-item">
+      <a href="{{artist.url}}">
+      {{artist.name}}
+    </a>
+  </div>
+  
+    </div>
+  {% endfor %}
+  </div>
+  </body>
+  </html>

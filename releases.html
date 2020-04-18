@@ -1,23 +1,6 @@
 ---
 title: Releases
-layout: default
+layout: releases
 lang: es
 menu: Releases
 ---
-<div class="content">
-  <h1>Releases</h1>
-  <hr>
-  {% assign releases=site.releases | where:"lang", page.lang %}
-
-{% for release in releases %}
-  <div class="release-item">
-    <a href="{{release.url}}">
-
-  <img src="/assets/releases/{{release.path | split: '/' | last | split: '.' | first}}.jpg" class="release-cover"/>
-  <h2>{{ release.title }}</h2>
-  <h3>{{ release.artist }}</h3>
-</a>
-
-  </div>
-{% endfor %}
-</div>
