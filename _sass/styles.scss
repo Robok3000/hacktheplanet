@@ -27,5 +27,6 @@ a, a:visited {
 }
 hr {
     border:0;
-    border: 2px solid $gray;
+    border: 2px dotted $gray;
+    margin-bottom: 10px;
 }
