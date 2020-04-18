@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="{{ page.lang }}">
+  <head>
+    <link rel="stylesheet" href="/css/htp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}}</title>
+  </head>
+  <body>
+    {% include header.html %}
+    <img src="/assets/releases/{{page.id | split: '/' | last}}.jpg"/>
+    <div class="content">
+    <h3>{{page.id | split: "/" | last}}</h3>
+
+      <h1>{{page.title}}</h1>
+      <h2><a href="/artistas/{{page.artist | slugify}}">{{page.artist}}</a></h2>
+    </div>
+  </body>
+</html>

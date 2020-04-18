@@ -1,0 +1,13 @@
+---
+title: Releases
+layout: default
+lang: es
+---
+<div class="content">
+{% for release in site.releases %}
+<a href="{{release.url}}">
+  <h2>{{ release.title }}</h2>
+  <p>{{ release.artist }}</p>
+</a>
+{% endfor %}
+</div>

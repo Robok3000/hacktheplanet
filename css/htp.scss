@@ -1,0 +1,17 @@
+---
+---
+$green: #2DFE54;
+
+@font-face {
+    font-family: 'IBMVGA8';
+    src: url(/assets/fonts/ibm_vga8.eot);
+    src: url(/assets/fonts/ibm_vga8.eot?#iefix) format('embedded-opentype'),
+         url(/assets/fonts/ibm_vga8.woff2) format('woff2'),
+         url(/assets/fonts/ibm_vga8.woff) format('woff'),
+         url(/assets/fonts/ibm_vga8.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@import "reset";
+@import "styles";
+@import "header";
