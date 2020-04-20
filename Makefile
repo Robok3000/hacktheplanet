@@ -5,10 +5,12 @@ icons:
 	convert assets/logo-black.png -resize 96x96 assets/favicon-96.png
 	convert assets/logo-black.png -resize 120x120 assets/favicon-120.png
 	convert assets/logo-black.png -resize 128x128 assets/favicon-128.png
+	convert assets/logo-black.png -resize 144x144 assets/favicon-144.png
 	convert assets/logo-black.png -resize 152x152 assets/favicon-152.png
 	convert assets/logo-black.png -resize 167x167 assets/favicon-167.png
 	convert assets/logo-black.png -resize 180x180 assets/favicon-180.png
 	convert assets/logo-black.png -resize 192x192 assets/favicon-192.png
+	convert assets/logo-black.png -resize 196x196 assets/favicon-196.png
 	convert assets/logo-black.png -resize 228x228 assets/favicon-228.png
 	convert assets/logo.png -resize 32x32 assets/favicon-dark-32.png
 	convert assets/logo.png -resize 57x57 assets/favicon-dark-57.png
@@ -16,8 +18,10 @@ icons:
 	convert assets/logo.png -resize 96x96 assets/favicon-dark-96.png
 	convert assets/logo.png -resize 120x120 assets/favicon-dark-120.png
 	convert assets/logo.png -resize 128x128 assets/favicon-dark-128.png
+	convert assets/logo.png -resize 144x144 assets/favicon-dark-144.png
 	convert assets/logo.png -resize 152x152 assets/favicon-dark-152.png
 	convert assets/logo.png -resize 167x167 assets/favicon-dark-167.png
 	convert assets/logo.png -resize 180x180 assets/favicon-dark-180.png
+	convert assets/logo.png -resize 196x196 assets/favicon-dark-196.png
 	convert assets/logo.png -resize 192x192 assets/favicon-dark-192.png
 	convert assets/logo.png -resize 228x228 assets/favicon-dark-228.png
